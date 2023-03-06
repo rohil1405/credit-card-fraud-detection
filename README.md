@@ -1,5 +1,5 @@
 # Credit-Card-Fraud-Detection
-Credit Card Fraud Detection using Decision tree,XGBoost Classifier and Support vector machine.
+Credit Card Fraud Detection using Decision tree, XGBoost Classifier and Support vector machine.
 
 It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
 
@@ -48,6 +48,38 @@ Some of the currently used approaches to detection of suchfraud are:
 - Hidden Markov Model
 - K-Nearest Neighbor
 
+## This Project
+
+In this project we have compared three algorithms according to their accuracy.
+- Logisitc Regression
+- Random Forest Classifier
+- XGBoost Classifier
+
+#### Logistic regression
+
+- Logistic regression is an example of supervised learning.
+- It is used to calculate or predict the probability of a binary (yes/no) event occurring. 
+- The f-1 score is lowest hence this is not a preferred algorithm.
+
+#### Random Forest Classifier
+
+- Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive accuracy of that dataset.
+- It has the highest f-1 score so this is selected for prediction.
+- Another advantages of random forest are that it is faster and takes less training time while also giving high accuracy.
+
+#### XGBoost Classifier
+
+- In this algorithm, decision trees are created in sequential form. Weights play an important role in XGBoost. Weights are assigned to all the independent variables which are then fed into the decision tree which predicts results. 
+- The weight of variables predicted wrong by the tree is increased and these variables are then fed to the second decision tree. These individual classifiers/predictors then ensemble to give a strong and more precise model. It can work on regression, classification, ranking, and user-defined prediction problems.
+- It’s accuracy is high but because of higher recall value it is discarded 
+
+## Heap Map
+
+<img width="275" alt="image" src="https://user-images.githubusercontent.com/103554765/223153905-0c3cd780-0c5d-444c-9142-1219e17295fb.png">
+
+## FlowChart
+
+<img width="443" alt="image" src="https://user-images.githubusercontent.com/103554765/223154066-914eceef-024b-43c7-aa0c-37c1bd297148.png">
 
 
 
